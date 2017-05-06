@@ -1,0 +1,240 @@
+<html>
+
+    <head>
+    
+        <title>Category List</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        
+        <script src="jquery.min.js"></script>
+        
+        <style type="text/css">
+        
+            #siteTitle{
+                
+                font-family:'Pacifico', cursive;
+                color:lightgrey;
+                padding-left: 4px;
+                
+            }
+                        
+            .jumbotron{
+                
+                background-image: url(bgi.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                height:201%;
+                
+            }
+        
+        </style>
+		
+		<script>
+			$(document).ready(function()
+			{
+				$("#occasion").click(function()
+				{
+					window.location.href="occasionproductlist.html";
+				});
+			});
+			$(document).ready(function()
+			{
+				$("#book").click(function()
+				{
+					window.location.href="bookproductlist.html";
+				});
+			});
+			$(document).ready(function()
+			{
+				$("#automobiles").click(function()
+				{
+					window.location.href="automobileproductlist.html";
+				});
+			});
+			$(document).ready(function()
+			{
+				$("#furniture").click(function()
+				{
+					window.location.href="furnitureproductlist.html";
+				});
+			});
+			$(document).ready(function()
+			{
+				$("#electronics").click(function()
+				{
+					window.location.href="electronicsproductlist.html";
+				});
+			});
+			
+		</script>	
+    
+    </head>
+    
+    <body>
+    
+        <nav class="navbar navbar-light bg-inverse">
+  
+            <a class="navbar-brand" href="#">
+    
+                <img src="logo2.jpg" width="40" height="40" class="d-inline-block align-top" alt="Logo">
+    
+                <span id="siteTitle">Temp $olutions</span>
+				<input id="myInput" type="file" style="visibility:hidden;" />
+		<input type="button" value="+" style="float:right;margin-right:2px;"onclick="$('#myInput').click();" />
+        
+  
+            </a>
+
+        </nav>
+        
+        <div class="jumbotron jumbotron-fluid">
+  
+            <div class="container">
+                
+                <div class="row">
+                
+                    <div class="col-md-4">
+                    
+                        <div class="card" style="width: 20rem;">
+  
+                            <img class="card-img-top" src="occasion.jpg" id="occasion" width="100%" height="20%" alt="Card image cap">
+  
+                                <div class="card-block">
+    
+                                    <h4 class="card-title">Occasions</h4>
+    
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+                                    
+  
+                                </div>
+
+                            </div>
+
+                        </div>
+                
+                        <div class="col-md-4">
+                    
+                            <div class="card" style="width: 20rem;">
+  
+                                <img class="card-img-top" src="book.jpg" id="book" width="100%" height="20%" alt="Card image cap">
+  
+                                    <div class="card-block">
+    
+                                        <h4 class="card-title">Books</h4>
+    
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+                                        
+  
+                                    </div>
+
+                                </div>    
+                    
+                            </div>
+                    
+                            <div class="col-md-4">
+                    
+                                <div class="card" style="width: 20rem;">
+  
+                                    <img class="card-img-top" src="automobiles.jpg" id="automobiles" width="100%" height="20%" alt="Card image cap">
+  
+                                    <div class="card-block">
+    
+                                        <h4 class="card-title">Automobiles</h4>
+    
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+                                        
+  
+                                    </div>
+
+                                </div>
+                    
+                            </div>
+    
+                        </div>
+						<br>
+						<br>
+						<br>
+						<div class="row">
+                
+                    <div class="col-md-4">
+                    
+                        <div class="card" style="width: 20rem;">
+  
+                            <img class="card-img-top" src="electronics.jpg" id="electronics"width="100%" height="20%" alt="Card image cap">
+  
+                                <div class="card-block">
+    
+                                    <h4 class="card-title">Electronics</h4>
+    
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+                                    
+  
+                                </div>
+
+                            </div>
+
+                        </div>
+                
+                        <div class="col-md-4">
+                    
+                            <div class="card" style="width: 20rem;">
+  
+                                <img class="card-img-top" src="furniture.jpg" id="furniture" width="100%" height="20%" alt="Card image cap">
+  
+                                    <div class="card-block">
+    
+                                        <h4 class="card-title">Furnitures</h4>
+    
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+                                        
+  
+                                    </div>
+
+                                </div>    
+                    
+                            </div>
+                    
+                            <div class="col-md-4">
+                    
+                                <div class="card" style="width: 20rem;">
+  
+                                    <img class="card-img-top" src="..." alt="Card image cap">
+  
+                                    <div class="card-block">
+    
+                                        <h4 class="card-title">Card title</h4>
+    
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+                                        
+  
+                                    </div>
+
+                                </div>
+                    
+                            </div>
+    
+                        </div>
+                
+                    </div>
+            
+                </div>
+    
+        </body>
+
+</html>
